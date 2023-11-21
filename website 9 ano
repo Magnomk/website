@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <header>
+
+    <title>Semana da Informática</title>
+
+ <body>   
+<h1>Projeto de extenção</h1>
+<p>Olá seja bem vindo ao projeto de extenção: <b>SEMANA DA INFORMÁTIMA</b></p>
+
+<P></P>
+<P></P>
+
+<p>Nosso projeto será uma aplicação Web, usando HTML e CSS para FRONTEND e o NODEJS para o Backend.</p>
+<p>Para esse projeto ser iniciado foi feito uma parceria entre as escolas <b>Joao Vilar da Cunha e Antonio Basílio, </b>com alunos do ensino fundamental das séries do nono ano.</p>
+
+<p></p>
+<p></p>
+
+</header>
+<h1>O que será passado nessa semanda da Informática?</h1>
+<p>Carreira de Desenvolvimento de Software, bem como seus segmentos:</p>
+<p> - Desenvolvedor Backend</p>
+<p> - Desenvolvedor Frontend</p>
+<p> - QA</p>
+<h1>Então, para começar, vamos nos conhecer um pouco.</h1>
+
+<p></p>
+<p></p>
+
+<b>Digite nos campos, abaixo, algumas informações para que possamos nos conhecer melhor.</b>
+
+<p></p>
+<p></p>
+
+<!-- aqui começa as informações para cadastro, sendo assim o artigo da página -->
+
+<article>
+
+<head>
+    <title>Printar Informações</title>
+</head>
+<body>
+<b>Seu Nome:</b> <input type="text" id="nome">
+
+<p></p>  
+
+<b>Data de nascimento</b> 
+<input type="date" id="dataNascimento">
+
+<p></p>
+<p></p>
+    
+<b>Série</b> <input type="text" id="serie">
+
+<p></p>
+<p></p>
+    
+<button onclick="printarInformacoes()">Salvar</button>
+    
+<!--JavaScript-->
+    <script>
+        function printarInformacoes() {
+            // Obter os valores dos campos de entrada
+            var nome = document.getElementById("nome").value;
+            var dataNascimento = document.getElementById("dataNascimento").value;
+            var serie = document.getElementById("serie").value;
+
+            // Exibir as informações na tela
+            alert("Seu Nome: " + nome + "\nData de Nascimento: " + dataNascimento + "\nSérie: " + serie);
+        }
+    </script>
+</body>
+</html>
+
+
+<!--Aqui finaliza o cadastro e a página de artigo-->
+</article>
+</body>
+</head>
+
+<style>
+h1{
+    text-align:center; 
+}
+p{
+    text-align: justify;
+}
+
+body{
+   background:bisque; 
+}
+button{
+    cursor: pointer;
+}
+button:active{
+    opacity: 0.8;
+}
+
+body{
+    text-align: center;
+}
+</style>
+
+<footer>
+
+</footer>
+</html>
